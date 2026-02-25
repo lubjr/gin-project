@@ -11,6 +11,7 @@ func Setup() *gin.Engine {
 
 	r.GET("/", handler.Healthy)
 	r.GET("/hello", handler.Hello)
+	r.POST("/calc", handler.Calc) 
 
 	return r
 }
