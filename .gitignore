@@ -1,0 +1,21 @@
+/memory
+
+# Build output
+/hello
+*.exe
+
+# Environment
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+*.out
+coverage.html
